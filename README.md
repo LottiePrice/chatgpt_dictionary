@@ -1,5 +1,5 @@
 # chatgpt_dictionary
-Ask ChatGPT to give a word's definition &amp; etymology and give examples.
+A simple web page where you can ask ChatGPT to give a word's definition &amp; etymology and give examples.
 # Directions
 1. Create a virutal environment
 
