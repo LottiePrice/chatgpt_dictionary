@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+      <title>Dictionary</title>
+      <link rel="stylesheet" type="text/css" 
+              href="{{ url_for('static', filename='styles.css') }}">
+  </head>
+
+
+  <body>
+    <h1>Dictionary</h1>
+
+    <table>
+    
+        <tr> <th>Word or phrase:</th>   <td> {{ word }} </td> <td>&nbsp;&nbsp;</td> <th>Etymology:</th>   <td>{{ etymology }}</td> </tr> 
+        <tr> <th>             </th>   <td>                   </td> <td>&nbsp;&nbsp;</td> <th>Definition:</th> <td>{{ definition }}</td> </tr>
+        <tr> <th>Connotation:      </th>   <td> {{ connotation }}   </td> <td>&nbsp;&nbsp;</td> <th>Example(s):</th>  <td>{{ examples }}</td> </tr>
+        <tr>   <td colspan=4> 
+
+            <form method="post" action="/" >
+
+              <input type="text" id="word" name="word" value="{{ 'word or phrase' }}"> 
+              <input type="text" id="context" name="context" value="{{ 'the context you saw it in' }}"> 
+              <button type="submit" value="submit">Submit</button>
+
+              <!-- <textarea rows="4" cols = "40" name="text"> </textarea> <br> 
+
+            </form>
+              <button onclick="insertSpecialChar('á')">á</button>  
+              <button onclick="insertSpecialChar('é')">é</button> 
+              <button onclick="insertSpecialChar('í')">í</button> 
+              <button onclick="insertSpecialChar('ó')">ó</button>
+              <button onclick="insertSpecialChar('ú')">ú</button>
+              <button onclick="insertSpecialChar('ñ')">ñ</button>
+              <button onclick="insertSpecialChar('¿')">¿</button>
+              <button onclick="insertSpecialChar('¡')">¡</button>
+
+      </td> </tr>
+
+    </table>
+
+    <script>
+        function insertSpecialChar(specialChar) {
+                      var input1 = document.getElementById("word");
+                     var startPos = input.selectionStart;
+                     var endPos = input.selectionEnd;
+                     var value = input.value;
+                     input.value = value.substring(0, startPos) + specialChar + value.substring(endPos, value.length);
+                      input.selectionStart = input.selectionEnd = startPos + 1;
+                      input.focus();
+        }
+    </script>
+-->
+  </body>
+
+</html>
+
