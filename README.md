@@ -1,6 +1,6 @@
 # chatgpt_dictionary
 Ask ChatGPT to give a word's definition &amp; etymology and give examples.
-# Directions:
+# Directions
 1. Create a virutal environment
 
      python3 -m venv venv
