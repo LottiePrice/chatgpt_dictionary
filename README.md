@@ -18,7 +18,7 @@ Ask ChatGPT to give a word's definition &amp; etymology and give examples.
 
 4. Run the python code to create a server
 
-     python <this filename>
+     python dictionary.py
 
 5. Open a web browser at
 
