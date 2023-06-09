@@ -25,9 +25,10 @@ Ask ChatGPT to give a word's definition &amp; etymology and give examples.
      localhost:5001
 
  
-See this tutorial for more
+See this tutorial for more:
 
      https://levelup.gitconnected.com/interfacing-chatgpt-with-python-824be63dfa2f
 
- Cool features of the API
+ Cool features of the API:
+     
      https://platform.openai.com/docs/api-reference/completions/create?lang=python
